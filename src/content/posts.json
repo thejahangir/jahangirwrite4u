@@ -1,0 +1,75 @@
+[
+  {
+    "id": "001",
+    "slug": "the-future-of-ai-is-not-just-about-ai",
+    "title": "The Future of AI Is Not Just About AI",
+    "excerpt": "A personal perspective on where artificial intelligence is heading and how it shapes society.",
+    "category": "AI",
+    "tags": ["AI", "Technology", "Future"],
+    "author": "Jahangir Alam",
+    "date": "2026-08-20",
+    "readTime": "6 min read",
+    "featured": true,
+    "coverImage": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=1200&auto=format&fit=crop"
+  },
+  {
+    "id": "002",
+    "slug": "why-good-ux-often-looks-simple",
+    "title": "Why Good UX Often Looks Simple",
+    "excerpt": "Simplicity is the ultimate sophistication. Why the best digital experiences feel invisible.",
+    "category": "UI/UX",
+    "tags": ["Design", "UX", "Simplicity"],
+    "author": "Jahangir Alam",
+    "date": "2026-08-15",
+    "readTime": "4 min read",
+    "featured": false
+  },
+  {
+    "id": "003",
+    "slug": "designing-products-people-actually-want-to-use",
+    "title": "Designing Products People Actually Want to Use",
+    "excerpt": "Moving beyond features to build emotional connections with users.",
+    "category": "UI/UX",
+    "tags": ["Product", "Design", "Psychology"],
+    "author": "Jahangir Alam",
+    "date": "2026-08-10",
+    "readTime": "5 min read",
+    "featured": false
+  },
+  {
+    "id": "004",
+    "slug": "the-internet-changed-we-just-didnt-notice",
+    "title": "The Internet Changed. We Just Didn't Notice",
+    "excerpt": "How the shift from chronological feeds to algorithmic curation changed the way we consume content.",
+    "category": "Technology",
+    "tags": ["Internet", "Culture", "Algorithms"],
+    "author": "Jahangir Alam",
+    "date": "2026-07-28",
+    "readTime": "7 min read",
+    "featured": false
+  },
+  {
+    "id": "005",
+    "slug": "technology-politics-and-the-attention-economy",
+    "title": "Technology, Politics and the Attention Economy",
+    "excerpt": "When clicks determine value, what happens to political discourse?",
+    "category": "Politics",
+    "tags": ["Politics", "Media", "Attention"],
+    "author": "Jahangir Alam",
+    "date": "2026-07-15",
+    "readTime": "8 min read",
+    "featured": false
+  },
+  {
+    "id": "006",
+    "slug": "what-i-have-learned-from-years-of-designing-digital-products",
+    "title": "What I Have Learned From Years of Designing Digital Products",
+    "excerpt": "Lessons on craft, empathy, and why you should always test with real users.",
+    "category": "Design",
+    "tags": ["Career", "Design", "Lessons"],
+    "author": "Jahangir Alam",
+    "date": "2026-06-30",
+    "readTime": "5 min read",
+    "featured": false
+  }
+]

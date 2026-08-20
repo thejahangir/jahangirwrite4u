@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Technology",
+    "slug": "technology",
+    "description": "Technology, innovation and the digital world."
+  },
+  {
+    "name": "UI/UX",
+    "slug": "ui-ux",
+    "description": "Design, usability and digital experiences."
+  },
+  {
+    "name": "Politics",
+    "slug": "politics",
+    "description": "Ideas and opinions about politics and society."
+  },
+  {
+    "name": "AI",
+    "slug": "ai",
+    "description": "Artificial Intelligence and its impact on the world."
+  },
+  {
+    "name": "Culture",
+    "slug": "culture",
+    "description": "Thoughts on modern culture, society, and human behavior."
+  },
+  {
+    "name": "Entertainment",
+    "slug": "entertainment",
+    "description": "Thoughts on modern entertainment."
+  },
+  {
+    "name": "Sports",
+    "slug": "sports",
+    "description": "Thoughts on modern sports."
+  },
+  {
+    "name": "Finance",
+    "slug": "finance",
+    "description": "Thoughts on modern finance."
+  },
+  {
+    "name": "Travel",
+    "slug": "travel",
+    "description": "Thoughts on modern travel."
+  },
+  {
+    "name": "Food",
+    "slug": "food",
+    "description": "Thoughts on modern food."
+  },
+  {
+    "name": "Fashion",
+    "slug": "fashion",
+    "description": "Thoughts on modern fashion."
+  },
+  {
+    "name": "Health",
+    "slug": "health",
+    "description": "Thoughts on modern health."
+  },
+  {
+    "name": "Education",
+    "slug": "education",
+    "description": "Thoughts on modern education."
+  },
+  {
+    "name": "Business",
+    "slug": "business",
+    "description": "Thoughts on modern business."
+  },
+  {
+    "name": "Science",
+    "slug": "science",
+    "description": "Thoughts on modern science."
+  },
+  {
+    "name": "Environment",
+    "slug": "environment",
+    "description": "Thoughts on modern environment."
+  }
+]

@@ -1,0 +1,39 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@config "../tailwind.config.js";
+
+@layer base {
+  :root {
+    --background: #FFFFFF;
+    --text: #000000;
+    --muted: #667085;
+    --border: #E5E7EB;
+    --surface: #F7F9FC;
+    
+    --color-primary: #3880FF;
+    --color-secondary: #008A63;
+  }
+
+  .dark {
+    --background: #0B0D10;
+    --text: #F5F7FA;
+    --muted: #98A2B3;
+    --border: #1F242F;
+    --surface: #111418;
+  }
+
+  body {
+    @apply bg-[var(--background)] text-[var(--text)] antialiased transition-colors duration-300;
+  }
+
+  /* Focus rings for accessibility */
+  *:focus-visible {
+    @apply outline-none ring-2 ring-[var(--color-primary)] ring-offset-2 ring-offset-[var(--background)];
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
