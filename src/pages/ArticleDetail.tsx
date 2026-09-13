@@ -69,7 +69,7 @@ export default function ArticleDetail() {
 
       <header className="max-w-3xl mx-auto px-4 pt-16 md:pt-24 pb-8 md:pb-12">
         <div className="mb-8">
-          <div className="flex items-center gap-2 text-xs font-bold tracking-widest uppercase text-brand-blue mb-6">
+          <div className="flex items-center gap-2 text-xs font-bold tracking-widest uppercase text-[#e53d00] mb-6">
             <span>{post.category}</span>
           </div>
           <h1 className="text-3xl md:text-4xl font-heading font-extrabold text-text leading-tight mb-4">

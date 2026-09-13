@@ -20,7 +20,7 @@ export default function ArticleCard({ post, compact = false }: ArticleCardProps)
           to={`/blog/${post.slug}`}
           className="group flex flex-col h-full rounded-2xl border border-border bg-surface p-5 hover:border-brand-blue/40 transition-colors"
         >
-          <div className="flex items-center gap-2 text-[11px] font-bold tracking-widest uppercase text-brand-blue mb-3">
+          <div className="flex items-center gap-2 text-[11px] font-bold tracking-widest uppercase text-[#e53d00] mb-3">
             <span>{post.category}</span>
             <span className="text-muted/50">&bull;</span>
             <span className="text-muted font-semibold normal-case tracking-normal">{post.readTime}</span>
@@ -37,7 +37,7 @@ export default function ArticleCard({ post, compact = false }: ArticleCardProps)
   return (
     <article className="group flex flex-col h-full">
       <div className="flex flex-col flex-grow">
-        <div className="flex items-center gap-2 text-xs font-bold tracking-widest uppercase text-brand-blue mb-4">
+        <div className="flex items-center gap-2 text-xs font-bold tracking-widest uppercase text-[#e53d00] mb-4">
            <span>{post.category}</span>
            <span className="text-muted/50">&bull;</span>
            <span className="text-muted font-semibold">{post.readTime}</span>
