@@ -1,5 +1,29 @@
 [
   {
+    "id": "024",
+    "slug": "two-bengals-two-tables-a-critical-reading-of-north-bengal-and-south-bengal-food-culture",
+    "title": "Two Bengals, Two Tables: A Critical Reading of North Bengal and South Bengal Food Culture",
+    "excerpt": "Bengal has never had a single food culture. The culinary traditions of North Bengal and South Bengal emerged from different landscapes and different histories of cultural interaction.",
+    "category": "Culture",
+    "tags": ["Culture", "Food", "Bengal"],
+    "author": "Jahangir Alam",
+    "date": "2025-12-15",
+    "readTime": "15 min read",
+    "featured": false
+  },
+  {
+    "id": "023",
+    "slug": "where-the-brahmaputra-remembers-the-reflection-of-lower-assam-in-assamese-literature",
+    "title": "Where the Brahmaputra Remembers: The Reflection of Lower Assam in Assamese Literature",
+    "excerpt": "Assamese literature is often described through its great literary figures, but it grows out of landscapes, languages, and memories. Lower Assam reveals itself as one of the many cultural voices that have shaped the Assamese imagination.",
+    "category": "Culture",
+    "tags": ["Culture", "Literature", "Assam"],
+    "author": "Jahangir Alam",
+    "date": "2024-09-15",
+    "readTime": "15 min read",
+    "featured": false
+  },
+  {
     "id": "022",
     "slug": "why-ux-designers-should-read-literature",
     "title": "Why UX Designers Should Read Literature",

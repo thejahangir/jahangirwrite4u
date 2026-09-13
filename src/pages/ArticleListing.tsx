@@ -6,7 +6,7 @@ import PageMeta from '../components/PageMeta';
 import { siteConfig } from '../config/site';
 
 export default function ArticleListing() {
-  const posts = postsData as Post[];
+  const posts = [...(postsData as Post[])].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 w-full">

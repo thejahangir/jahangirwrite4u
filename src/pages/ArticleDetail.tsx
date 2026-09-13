@@ -38,7 +38,8 @@ export default function ArticleDetail() {
         if (modules[path]) {
           const mdContent = await modules[path]() as string;
           // Strip the main H1 tag from the markdown so it doesn't duplicate the title
-          const strippedContent = mdContent.replace(/^#\s+.*?\n+/, '');
+          // Allow for optional leading whitespace/newlines and handle carriage returns
+          const strippedContent = mdContent.replace(/^\s*#\s+[^\n]*\r?\n+/, '');
           const htmlContent = marked(strippedContent);
           setContent(htmlContent as string);
         } else {
@@ -71,7 +72,7 @@ export default function ArticleDetail() {
           <div className="flex items-center gap-2 text-xs font-bold tracking-widest uppercase text-brand-blue mb-6">
             <span>{post.category}</span>
           </div>
-          <h1 className="text-3xl md:text-4xl font-heading font-extrabold text-text leading-tight mb-4 text-balance">
+          <h1 className="text-3xl md:text-4xl font-heading font-extrabold text-text leading-tight mb-4">
             {post.title}
           </h1>
           <p className="text-lg md:text-xl text-muted mb-6 text-balance leading-relaxed">
