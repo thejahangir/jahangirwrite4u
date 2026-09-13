@@ -13,6 +13,30 @@
     "coverImage": "banner-x3.png"
   },
   {
+    "id": "018",
+    "slug": "principles-of-psychology-in-ux-design",
+    "title": "Principles of Psychology in UX Design",
+    "excerpt": "UX designers don't need to be psychologists. But a few fundamental principles of psychology can dramatically improve the experiences we create.",
+    "category": "UI/UX",
+    "tags": ["UX", "Psychology", "Design"],
+    "author": "Jahangir Alam",
+    "date": "2025-04-13",
+    "readTime": "14 min read",
+    "featured": false
+  },
+  {
+    "id": "015",
+    "slug": "building-trust-through-ux-the-most-underrated-feature-in-product-design",
+    "title": "Building Trust Through UX: The Most Underrated Feature in Product Design",
+    "excerpt": "Features attract users and performance may retain them, but trust is what makes people depend on a product.",
+    "category": "UI/UX",
+    "tags": ["UX", "Trust", "AI"],
+    "author": "Jahangir Alam",
+    "date": "2026-03-09",
+    "readTime": "8 min read",
+    "featured": false
+  },
+  {
     "id": "009",
     "slug": "i-am-is-not-the-user-you-are-is-not-the-user-users-are-is-the-user",
     "title": "\"I Am\" Is Not the User. \"You Are\" Is Not the User. \"Users Are\" Is the User.",
@@ -20,8 +44,32 @@
     "category": "UI/UX",
     "tags": ["UX", "Design", "Product"],
     "author": "Jahangir Alam",
-    "date": "2026-06-20",
+    "date": "2025-09-02",
     "readTime": "6 min read",
+    "featured": false
+  },
+  {
+    "id": "016",
+    "slug": "why-the-fundamentals-of-ux-still-matter-in-an-ai-driven-world",
+    "title": "Why the Fundamentals of UX Still Matter in an AI-Driven World",
+    "excerpt": "Great experiences are not built on technology alone. They are built on timeless UX principles.",
+    "category": "UI/UX",
+    "tags": ["UX", "AI", "Design"],
+    "author": "Jahangir Alam",
+    "date": "2026-01-12",
+    "readTime": "8 min read",
+    "featured": false
+  },
+  {
+    "id": "017",
+    "slug": "ai-will-not-kill-uiux-design-but-it-will-expose-bad-designers",
+    "title": "AI Will Not Kill UI/UX Design, But It Will Expose Bad Designers",
+    "excerpt": "AI is not destroying design. It is exposing how much of modern UI/UX had already become repetitive and strategically shallow.",
+    "category": "UI/UX",
+    "tags": ["AI", "UX", "Design"],
+    "author": "Jahangir Alam",
+    "date": "2026-01-24",
+    "readTime": "9 min read",
     "featured": false
   },
   {
@@ -44,7 +92,7 @@
     "category": "Politics",
     "tags": ["Politics", "Assam", "Development"],
     "author": "Jahangir Alam",
-    "date": "2026-03-06",
+    "date": "2026-02-23",
     "readTime": "8 min read",
     "featured": false
   },
@@ -73,6 +121,30 @@
     "featured": false
   },
   {
+    "id": "020",
+    "slug": "the-user-is-not-always-right-the-ux-designers-most-uncomfortable-truth",
+    "title": "The User Is Not Always Right: The UX Designer's Most Uncomfortable Truth",
+    "excerpt": "Users are not always able to tell us what they actually need. The job of UX is to find the truth between what people say, believe, do, and require.",
+    "category": "UI/UX",
+    "tags": ["UX", "Research", "Product"],
+    "author": "Jahangir Alam",
+    "date": "2025-12-09",
+    "readTime": "15 min read",
+    "featured": false
+  },
+  {
+    "id": "019",
+    "slug": "the-ux-designers-paradox-why-good-ux-sometimes-makes-things-harder",
+    "title": "The UX Designer's Paradox: Why Good UX Sometimes Makes Things Harder",
+    "excerpt": "The goal of UX isn't to eliminate friction. The goal is to eliminate the wrong friction.",
+    "category": "UI/UX",
+    "tags": ["UX", "Friction", "Product"],
+    "author": "Jahangir Alam",
+    "date": "2025-11-18",
+    "readTime": "12 min read",
+    "featured": false
+  },
+  {
     "id": "011",
     "slug": "beware-of-overenthusiastic-hr-on-social-media",
     "title": "Beware of Overenthusiastic HR on Social Media: The Red Flag of a Toxic Workplace",
@@ -82,6 +154,18 @@
     "author": "Jahangir Alam",
     "date": "2025-07-24",
     "readTime": "9 min read",
+    "featured": false
+  },
+  {
+    "id": "021",
+    "slug": "to-design-or-not-to-design-what-hamlet-teaches-us-about-modern-ux",
+    "title": "To Design or Not to Design: What Hamlet Teaches Us About Modern UX",
+    "excerpt": "Hamlet is a story about making decisions without complete information. Modern UX is, in many ways, the same discipline.",
+    "category": "UI/UX",
+    "tags": ["UX", "Literature", "Research"],
+    "author": "Jahangir Alam",
+    "date": "2025-03-18",
+    "readTime": "16 min read",
     "featured": false
   },
   {

@@ -2,6 +2,8 @@ import authorPhoto from '../assets/jahangir.png';
 
 export const siteConfig = {
   name: "jahangirWrite4u",
+  title:
+    "Jahangir :: Article on technology, design, AI, politics, culture, life and literature",
   author: "Jahangir Alam",
   authorImage: authorPhoto,
   description:

@@ -49,10 +49,6 @@ export default function ArticleDetail() {
   return (
     <article className="pb-20">
       <PageMeta title={post.title} description={post.excerpt} type="article" />
-      {/* Progress Bar placeholder */}
-      <div className="fixed top-0 left-0 w-full h-1 bg-surface z-50">
-        <div className="h-full bg-brand-blue" style={{ width: '50%' }}></div>
-      </div>
 
       <header className="max-w-3xl mx-auto px-4 pt-16 md:pt-24 pb-8 md:pb-12">
         <div className="mb-8">

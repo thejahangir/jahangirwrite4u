@@ -43,7 +43,3 @@ The reinvention of Arnab Goswami is, in the end, a story about the Indian media 
 Against that landscape, the partial return of adversarial journalism to one prominent channel is, in its modest way, something to note. Not to celebrate uncritically — the motivations are too transparently commercial, the consistency too strategically inconsistent, for celebration to be warranted. But to note: because it suggests that audience appetite for journalism that asks difficult questions of power has not vanished. It has simply been waiting for someone to find it worth their while to provide it again.
 
 The nation, it turns out, still wants to know. It was always the business model that had forgotten to ask.
-
----
-
-*Originally published on [X](https://x.com/TheJahangirAlam/status/2029895052617826426).*

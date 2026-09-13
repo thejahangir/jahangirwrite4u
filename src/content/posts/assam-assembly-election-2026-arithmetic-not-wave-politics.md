@@ -83,7 +83,3 @@ The lesson of 2021 is clear: popular support and political power are not the sam
 Assam in 2026 stands at an electoral crossroads. The ruling alliance is stable but vulnerable. The opposition is numerically strong but strategically fragile. The party or coalition that learns from the vote–seat mismatch of 2021, and corrects its errors, will govern Assam next.
 
 This election will not be won by enthusiasm. It will be won by strategy.
-
----
-
-*Originally published on [X](https://x.com/TheJahangirAlam/status/2029634561311920497).*

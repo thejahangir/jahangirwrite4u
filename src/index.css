@@ -14,6 +14,14 @@
     --color-secondary: #e53d00;
   }
 
+  html {
+    color-scheme: dark;
+  }
+
+  html.light {
+    color-scheme: light;
+  }
+
   .dark {
     --background: #080808;
     --text: #F5F7FA;

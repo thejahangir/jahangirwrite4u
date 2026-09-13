@@ -19,7 +19,7 @@ export default function PageMeta({
   description = siteConfig.description,
   type = 'website',
 }: PageMetaProps) {
-  const pageTitle = title ? `${title} | ${siteConfig.name}` : `${siteConfig.name} — ${siteConfig.topics}`;
+  const pageTitle = title ? `${title} | ${siteConfig.name}` : siteConfig.title;
 
   useEffect(() => {
     document.title = pageTitle;

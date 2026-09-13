@@ -65,7 +65,7 @@ export default function Header() {
           <div className="hidden md:flex items-center space-x-4">
             <button 
               onClick={() => setSearchOpen(true)}
-              className="text-muted hover:text-brand-blue transition-colors p-2 flex items-center gap-2" 
+              className="text-muted hover:text-brand-blue transition-colors p-2 flex items-center gap-2 cursor-pointer" 
               aria-label="Search"
             >
               <Search className="h-5 w-5" />
@@ -73,7 +73,7 @@ export default function Header() {
             </button>
             <button
               onClick={toggleTheme}
-              className="text-muted hover:text-brand-blue transition-colors p-2"
+              className="text-muted hover:text-brand-blue transition-colors p-2 cursor-pointer"
               aria-label="Toggle Theme"
             >
               {theme === 'dark' ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
@@ -84,7 +84,7 @@ export default function Header() {
           <div className="flex items-center md:hidden space-x-4">
             <button
               onClick={toggleTheme}
-              className="text-muted hover:text-brand-blue transition-colors p-2"
+              className="text-muted hover:text-brand-blue transition-colors p-2 cursor-pointer"
               aria-label="Toggle Theme"
             >
               {theme === 'dark' ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
@@ -120,7 +120,7 @@ export default function Header() {
                    setSearchOpen(true);
                    setMobileMenuOpen(false);
                  }}
-                 className="flex items-center text-muted hover:text-brand-blue text-base font-medium w-full text-left"
+                 className="flex items-center text-muted hover:text-brand-blue text-base font-medium w-full text-left cursor-pointer"
                >
                  <Search className="h-5 w-5 mr-2" /> Search
                </button>
