@@ -5,6 +5,7 @@ import { Post } from '../types';
 import CategoryBadge from './CategoryBadge';
 import { ArrowRight } from 'lucide-react';
 import { resolveCoverImage } from '../utils/coverImage';
+import ArticleTags from './ArticleTags';
 
 interface FeaturedArticleProps {
   post: Post;
@@ -35,9 +36,10 @@ export default function FeaturedArticle({ post }: FeaturedArticleProps) {
               {post.title}
             </Link>
           </h3>
-          <p className="text-muted mb-6 text-lg text-balance">
+          <p className="text-muted mb-4 text-lg text-balance">
             {post.excerpt}
           </p>
+          <ArticleTags tags={post.tags} className="mb-6" />
           <div className="flex items-center justify-between mt-auto">
              <div className="flex items-center gap-3 text-sm text-muted">
                 <CategoryBadge category={post.category} />

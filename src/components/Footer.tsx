@@ -6,7 +6,7 @@ import logo from '../assets/logo-jw4u.png';
 
 export default function Footer() {
   return (
-    <footer className="bg-brand-ink text-zinc-400 mt-auto border-t border-white/10">
+    <footer className="bg-brand-ink text-zinc-400 mt-auto border-t border-white/10 print:hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 lg:gap-8 border-b border-white/10 pb-16 mb-16">
           

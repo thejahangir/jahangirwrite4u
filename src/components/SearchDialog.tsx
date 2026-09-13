@@ -3,6 +3,7 @@ import { Search as SearchIcon, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import postsData from '../content/posts.json';
 import { Post } from '../types';
+import ArticleTags from './ArticleTags';
 
 interface SearchDialogProps {
   isOpen: boolean;
@@ -94,6 +95,7 @@ export default function SearchDialog({ isOpen, onClose }: SearchDialogProps) {
                         <span className="text-xs text-muted">{post.date}</span>
                       </div>
                       <h4 className="text-base font-semibold text-text group-hover:text-brand-orange transition-colors">{post.title}</h4>
+                      <ArticleTags tags={post.tags} className="mt-2" />
                     </Link>
                   </li>
                 ))}

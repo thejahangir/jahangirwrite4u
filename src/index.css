@@ -48,3 +48,17 @@
 .logoj4u{
   width: 200px;
 }
+
+@media print {
+  html,
+  body {
+    background: #fff !important;
+    color: #080808 !important;
+    color-scheme: light;
+  }
+
+  a {
+    text-decoration: none !important;
+    color: inherit !important;
+  }
+}

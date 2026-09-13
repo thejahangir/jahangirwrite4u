@@ -7,6 +7,21 @@ import { format, parseISO } from 'date-fns';
 import ArticleCard from '../components/ArticleCard';
 import { siteConfig } from '../config/site';
 import PageMeta from '../components/PageMeta';
+import ArticleTags from '../components/ArticleTags';
+import ArticleActions from '../components/ArticleActions';
+
+function getRelatedPosts(post: Post, all: Post[], count = 2): Post[] {
+  const others = all.filter((p) => p.id !== post.id);
+  return others
+    .map((p) => {
+      const tagScore = p.tags.filter((tag) => post.tags.includes(tag)).length;
+      const categoryScore = p.category === post.category ? 2 : 0;
+      return { post: p, score: tagScore + categoryScore };
+    })
+    .sort((a, b) => b.score - a.score || b.post.date.localeCompare(a.post.date))
+    .slice(0, count)
+    .map((item) => item.post);
+}
 
 export default function ArticleDetail() {
   const { slug } = useParams<{ slug: string }>();
@@ -45,6 +60,7 @@ export default function ArticleDetail() {
   }
 
   const formattedDate = format(parseISO(post.date), 'MMMM d, yyyy');
+  const relatedPosts = getRelatedPosts(post, postsData as Post[]);
 
   return (
     <article className="pb-20">
@@ -58,9 +74,10 @@ export default function ArticleDetail() {
           <h1 className="text-3xl md:text-4xl font-heading font-extrabold text-text leading-tight mb-4 text-balance">
             {post.title}
           </h1>
-          <p className="text-lg md:text-xl text-muted mb-8 text-balance leading-relaxed">
+          <p className="text-lg md:text-xl text-muted mb-6 text-balance leading-relaxed">
             {post.excerpt}
           </p>
+          <ArticleTags tags={post.tags} className="mb-8" />
           <div className="flex items-center gap-4">
             <img 
               src={siteConfig.authorImage}
@@ -84,6 +101,17 @@ export default function ArticleDetail() {
           className="prose prose-lg dark:prose-invert prose-brand mx-auto font-sans leading-relaxed text-text mb-16"
           dangerouslySetInnerHTML={{ __html: content }}
         />
+        <ArticleActions />
+        {relatedPosts.length > 0 && (
+          <section className="related-articles border-t border-border pt-12 print:hidden">
+            <h2 className="text-sm font-bold tracking-widest uppercase text-muted mb-6">Related articles</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              {relatedPosts.map((related) => (
+                <ArticleCard key={related.id} post={related} compact />
+              ))}
+            </div>
+          </section>
+        )}
       </div>
     </article>
   );
