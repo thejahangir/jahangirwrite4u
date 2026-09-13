@@ -117,7 +117,4 @@ If an HR professional is spending more time crafting LinkedIn posts than solving
 \r
 So, the next time you see an HR executive excessively praising their company on social media, don't be impressed: be cautious. It might just be a trap.\r
 \r
----\r
-\r
-*Originally published on [LinkedIn](https://www.linkedin.com/pulse/beware-overenthusiastic-hr-social-media-red-flag-alam-sfc-csm-xwafc).*\r
 `;export{e as default};

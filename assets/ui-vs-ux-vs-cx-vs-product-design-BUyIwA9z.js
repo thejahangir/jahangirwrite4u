@@ -60,7 +60,4 @@ In an era where users have endless choices, the companies that succeed will not 
 \r
 And perhaps that is the real difference between good products and great ones.\r
 \r
----\r
-\r
-*Originally published on [LinkedIn](https://www.linkedin.com/pulse/ui-vs-ux-cx-product-design-industrys-favorite-buzzwords-jahangir-alam-k1izc).*\r
 `;export{e as default};
