@@ -10,8 +10,9 @@ import { siteConfig } from '../config/site';
 
 export default function Home() {
   const posts = postsData as Post[];
-  const featuredPost = posts.find(p => p.featured) || posts[0];
-  const recentPosts = posts.filter(p => p.id !== featuredPost.id).slice(0, 5);
+  const sortedPosts = [...posts].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+  const featuredPost = sortedPosts.find(p => p.featured) || sortedPosts[0];
+  const recentPosts = sortedPosts.filter(p => p.id !== featuredPost.id).slice(0, 5);
 
   return (
     <div className="flex flex-col gap-20 pb-10">
@@ -63,7 +64,7 @@ export default function Home() {
           <div className="lg:col-span-5 lg:sticky lg:top-32">
              <h2 className="text-4xl lg:text-6xl font-heading font-extrabold text-text mb-6 tracking-tight">The Latest.</h2>
              <p className="text-muted text-lg lg:text-xl leading-relaxed mb-10 text-balance">
-               A collection of my most recent thoughts, explorations, and essays on technology, design, and culture.
+               A collection of my most recent thoughts, explorations, and articles on technology, design, and culture.
              </p>
              <Link to="/articles" className="group inline-flex items-center text-brand-blue font-bold tracking-wide uppercase text-sm hover:text-brand-orange transition-colors">
                View all articles <ArrowRight className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1" />
@@ -75,6 +76,15 @@ export default function Home() {
             {recentPosts.map(post => (
               <ArticleCard key={post.id} post={post} />
             ))}
+            
+            <div className="pt-4 flex justify-end">
+              <Link 
+                to="/articles" 
+                className="inline-flex items-center justify-center px-5 py-2 border border-border text-sm font-semibold rounded-full text-text hover:border-brand-blue hover:text-brand-blue transition-all duration-300 hover:shadow-sm"
+              >
+                More Articles <ArrowRight className="ml-2 w-4 h-4" />
+              </Link>
+            </div>
           </div>
 
         </div>

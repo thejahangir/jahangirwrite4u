@@ -1,5 +1,17 @@
 [
   {
+    "id": "022",
+    "slug": "why-ux-designers-should-read-literature",
+    "title": "Why UX Designers Should Read Literature",
+    "excerpt": "There is a strange assumption in the UX industry that the best way to become a better UX designer is to read more UX books. But literature may be one of the most powerful forms of UX education.",
+    "category": "UI/UX",
+    "tags": ["UX", "Literature", "Design"],
+    "author": "Jahangir Alam",
+    "date": "2024-11-15",
+    "readTime": "12 min read",
+    "featured": false
+  },
+  {
     "id": "007",
     "slug": "the-world-without-adults-a-crisis-of-global-leadership",
     "title": "The World Without Adults: A Crisis of Global Leadership",

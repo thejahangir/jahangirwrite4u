@@ -22,7 +22,7 @@ export default function Categories() {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 w-full">
       <PageMeta
         title="Categories"
-        description={`Browse essays by topic — ${siteConfig.topics}.`}
+        description={`Browse Articles by topic — ${siteConfig.topics}.`}
       />
       <div className="mb-12">
         <h1 className="text-4xl md:text-5xl font-heading font-extrabold text-text mb-4">Categories</h1>

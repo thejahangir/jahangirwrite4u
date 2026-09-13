@@ -9,7 +9,7 @@ export const siteConfig = {
   description:
     "Articles and opinions on technology, design, AI, politics, culture, life and literature by Jahangir Alam.",
   keywords:
-    "technology, design, AI, politics, culture, life, literature, Jahangir Alam, jahangirWrite4u, essays",
+    "technology, design, AI, politics, culture, life, literature, Jahangir Alam, jahangirWrite4u, Articles",
   topics: "technology, design, AI, politics, culture, life and literature",
   url: "https://jahangirwrite4u.com",
   social: {

@@ -12,7 +12,7 @@ export default function ArticleListing() {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 w-full">
       <PageMeta
         title="Articles"
-        description={`Essays on ${siteConfig.topics} by ${siteConfig.author}.`}
+        description={`Articles on ${siteConfig.topics} by ${siteConfig.author}.`}
       />
       <div className="mb-12">
         <h1 className="text-4xl md:text-5xl font-heading font-extrabold text-text mb-4">All Articles</h1>
