@@ -1,13 +1,13 @@
 import authorPhoto from '../assets/jahangir.png';
 
 export const siteConfig = {
-  name: "jahangirWrite4u",
+  name: "Jahangir A",
   title:
     "Jahangir :: Article on technology, design, AI, politics, culture, life and literature",
   author: "Jahangir Alam",
   authorImage: authorPhoto,
   description:
-    "Essays and opinions on technology, design, AI, politics, culture, life and literature by Jahangir Alam.",
+    "Articles and opinions on technology, design, AI, politics, culture, life and literature by Jahangir Alam.",
   keywords:
     "technology, design, AI, politics, culture, life, literature, Jahangir Alam, jahangirWrite4u, essays",
   topics: "technology, design, AI, politics, culture, life and literature",

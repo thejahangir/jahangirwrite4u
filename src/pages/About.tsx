@@ -19,7 +19,7 @@ export default function About() {
       <div className="prose prose-lg dark:prose-invert prose-brand mb-16 text-text">
         <h2>Why I write</h2>
         <p>
-          Writing is the best way to crystallize thought. I write to understand things better, to share what I've learned, and to connect with others who are interested in the intersection of technology, design, and culture.
+          Writing is the best way to crystallize thought. I write to understand things better, to share what I've learned, and to connect with others who are interested in the intersection of technology, design, literature and culture.
         </p>
         
         <h2>What I write about</h2>
@@ -29,13 +29,14 @@ export default function About() {
           <li><strong>AI:</strong> The future of intelligence and human-computer interaction.</li>
           <li><strong>Politics & Society:</strong> How technology affects the way we govern and live together.</li>
           <li><strong>Culture & Life:</strong> Observations on modern life, work, and everything in between.</li>
+          <li><strong>Literature:</strong> Exploring the stories, books, and ideas that shape our understanding of the world.</li>
         </ul>
       </div>
 
       <hr className="border-border mb-16" />
 
       <div>
-        <h2 className="text-3xl font-heading font-bold text-text mb-8">About Jahangir</h2>
+        <h2 className="text-3xl font-heading font-bold text-text mb-8">About Jahangir A</h2>
         
         <div className="flex flex-col md:flex-row gap-8 items-start">
           <div className="w-48 h-48 rounded-2xl bg-border overflow-hidden flex-shrink-0 relative group">
@@ -49,17 +50,13 @@ export default function About() {
           
           <div>
             <h3 className="text-2xl font-bold text-text mb-2">{siteConfig.author}</h3>
-            <p className="text-brand-blue font-medium mb-4">UI/UX Designer &middot; Developer &middot; Writer</p>
+            <p className="text-brand-blue font-medium mb-4">UI/UX Designer &middot; Developer &middot; Writer &middot; Blogger</p>
             <p className="text-muted leading-relaxed mb-6">
               I am a digital product designer and developer with a passion for creating elegant solutions to complex problems. 
               I believe in the power of good design to make technology more accessible and enjoyable for everyone.
             </p>
             
-            <div className="flex gap-4">
-              <a href={siteConfig.social.twitter} target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-text hover:text-brand-blue transition-colors">Twitter</a>
-              <a href={siteConfig.social.linkedin} target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-text hover:text-brand-blue transition-colors">LinkedIn</a>
-              <a href={siteConfig.social.github} target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-text hover:text-brand-blue transition-colors">GitHub</a>
-            </div>
+
           </div>
         </div>
       </div>
