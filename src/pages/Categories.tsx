@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import categoriesData from '../data/categories.json';
 import postsData from '../content/posts.json';
 import { Category, Post } from '../types';
+import PageMeta from '../components/PageMeta';
+import { siteConfig } from '../config/site';
 
 export default function Categories() {
   const categories = categoriesData as Category[];
@@ -18,6 +20,10 @@ export default function Categories() {
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 w-full">
+      <PageMeta
+        title="Categories"
+        description={`Browse essays by topic — ${siteConfig.topics}.`}
+      />
       <div className="mb-12">
         <h1 className="text-4xl md:text-5xl font-heading font-extrabold text-text mb-4">Categories</h1>
         <p className="text-xl text-muted">Explore topics that interest you.</p>

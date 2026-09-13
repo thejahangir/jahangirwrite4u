@@ -4,6 +4,7 @@ import categoriesData from '../data/categories.json';
 import postsData from '../content/posts.json';
 import { Category, Post } from '../types';
 import ArticleCard from '../components/ArticleCard';
+import PageMeta from '../components/PageMeta';
 
 export default function CategoryDetail() {
   const { slug } = useParams<{ slug: string }>();
@@ -16,6 +17,7 @@ export default function CategoryDetail() {
   if (!category) {
     return (
       <div className="max-w-3xl mx-auto px-4 py-20 text-center">
+        <PageMeta title="Category Not Found" description="This category doesn't seem to exist." />
         <h1 className="text-4xl font-bold mb-4">Category Not Found</h1>
         <p className="text-muted mb-8">This category doesn't seem to exist.</p>
         <Link to="/categories" className="text-brand-blue font-medium hover:underline">
@@ -27,6 +29,10 @@ export default function CategoryDetail() {
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 w-full">
+      <PageMeta
+        title={category.name}
+        description={category.description}
+      />
       <div className="mb-12 border-b border-border pb-12">
         <div className="flex items-center gap-4 mb-4 text-brand-blue">
            <Link to="/categories" className="text-sm font-medium hover:underline">Categories</Link>

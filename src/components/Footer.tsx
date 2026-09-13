@@ -1,21 +1,26 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, ExternalLink } from 'lucide-react';
+import { ExternalLink } from 'lucide-react';
 import { siteConfig } from '../config/site';
+import logo from '../assets/logo-jw4u.png';
 
 export default function Footer() {
   return (
-    <footer className="bg-zinc-950 text-zinc-400 mt-auto border-t border-zinc-900">
+    <footer className="bg-brand-ink text-zinc-400 mt-auto border-t border-white/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-12 lg:gap-8 border-b border-zinc-800 pb-16 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-12 lg:gap-8 border-b border-white/10 pb-16 mb-16">
           
           {/* Brand */}
           <div className="md:col-span-12 lg:col-span-6 pr-0 lg:pr-12">
-            <h2 className="text-2xl font-heading font-extrabold text-white mb-4 tracking-tight">
-              {siteConfig.name}
-            </h2>
+            <Link to="/" className="inline-block mb-4" aria-label={siteConfig.name}>
+              <img
+                src={logo}
+                alt={siteConfig.name}
+                className="h-10 w-auto invert hue-rotate-180"
+              />
+            </Link>
             <p className="text-zinc-400 max-w-md mb-10 text-sm leading-relaxed text-balance">
-              Ideas, opinions and stories about technology, design, AI, politics, culture and life. Exploring the intersections of the digital world and human experience through thoughtful essays and articles.
+              Ideas, opinions and stories about technology, design, AI, politics, culture, life and literature. Exploring the intersections of the digital world and human experience through thoughtful essays and articles.
             </p>
           </div>
           
@@ -34,10 +39,10 @@ export default function Footer() {
           <div className="md:col-span-4 lg:col-span-2">
             <h3 className="text-sm font-bold text-white uppercase tracking-widest mb-6">Topics</h3>
             <ul className="space-y-4 text-sm">
-              <li><Link to="/category/technology" className="hover:text-white transition-colors">Technology</Link></li>
-              <li><Link to="/category/ui-ux" className="hover:text-white transition-colors">UI/UX Design</Link></li>
-              <li><Link to="/category/ai" className="hover:text-white transition-colors">Artificial Intelligence</Link></li>
               <li><Link to="/category/politics" className="hover:text-white transition-colors">Politics</Link></li>
+              <li><Link to="/category/ui-ux" className="hover:text-white transition-colors">UI/UX Design</Link></li>
+              <li><Link to="/category/technology" className="hover:text-white transition-colors">Technology</Link></li>
+              <li><Link to="/category/culture" className="hover:text-white transition-colors">Culture</Link></li>
             </ul>
           </div>
 

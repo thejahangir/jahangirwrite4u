@@ -1,8 +1,14 @@
+import authorPhoto from '../assets/jahangir.png';
+
 export const siteConfig = {
   name: "jahangirWrite4u",
   author: "Jahangir Alam",
+  authorImage: authorPhoto,
   description:
-    "Ideas, opinions and stories about technology, design, AI, politics, culture and life.",
+    "Essays and opinions on technology, design, AI, politics, culture, life and literature by Jahangir Alam.",
+  keywords:
+    "technology, design, AI, politics, culture, life, literature, Jahangir Alam, jahangirWrite4u, essays",
+  topics: "technology, design, AI, politics, culture, life and literature",
   url: "https://jahangirwrite4u.com",
   social: {
     twitter: "https://twitter.com/",

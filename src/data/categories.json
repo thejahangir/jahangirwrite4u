@@ -25,14 +25,14 @@
     "description": "Thoughts on modern culture, society, and human behavior."
   },
   {
-    "name": "Entertainment",
-    "slug": "entertainment",
-    "description": "Thoughts on modern entertainment."
+    "name": "Environment",
+    "slug": "environment",
+    "description": "Thoughts on modern environment."
   },
   {
-    "name": "Sports",
-    "slug": "sports",
-    "description": "Thoughts on modern sports."
+    "name": "Literature",
+    "slug": "literature",
+    "description": "Thoughts on modern literature."
   },
   {
     "name": "Finance",
@@ -43,6 +43,11 @@
     "name": "Travel",
     "slug": "travel",
     "description": "Thoughts on modern travel."
+  },
+  {
+    "name": "Media",
+    "slug": "media",
+    "description": "Thoughts on modern media."
   },
   {
     "name": "Food",

@@ -9,8 +9,9 @@ export default {
     extend: {
       colors: {
         brand: {
-          blue: '#3880FF',
-          green: '#008A63',
+          blue: '#3880ff',
+          orange: '#e53d00',
+          ink: '#080808',
         },
         background: 'var(--background)',
         text: 'var(--text)',
@@ -28,9 +29,9 @@ export default {
             maxWidth: '65ch',
             color: 'var(--text)',
             a: {
-              color: '#3880FF',
+              color: '#3880ff',
               '&:hover': {
-                color: '#008A63',
+                color: '#e53d00',
               },
             },
             h1: {
@@ -55,7 +56,7 @@ export default {
             },
             blockquote: {
               color: 'var(--text)',
-              borderLeftColor: '#3880FF',
+              borderLeftColor: '#3880ff',
             },
           },
         },

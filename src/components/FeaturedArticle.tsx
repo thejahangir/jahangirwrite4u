@@ -4,6 +4,7 @@ import { format, parseISO } from 'date-fns';
 import { Post } from '../types';
 import CategoryBadge from './CategoryBadge';
 import { ArrowRight } from 'lucide-react';
+import { resolveCoverImage } from '../utils/coverImage';
 
 interface FeaturedArticleProps {
   post: Post;
@@ -11,14 +12,15 @@ interface FeaturedArticleProps {
 
 export default function FeaturedArticle({ post }: FeaturedArticleProps) {
   const formattedDate = format(parseISO(post.date), 'MMMM d, yyyy');
+  const coverImage = resolveCoverImage(post.coverImage);
 
   return (
     <article className="relative overflow-hidden rounded-3xl bg-surface border border-border group transition-all duration-300 hover:shadow-lg">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-0 md:h-[400px]">
-        {post.coverImage && (
+        {coverImage && (
           <div className="h-64 md:h-full overflow-hidden relative">
             <img 
-              src={post.coverImage} 
+              src={coverImage} 
               alt={post.title}
               className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
@@ -42,7 +44,7 @@ export default function FeaturedArticle({ post }: FeaturedArticleProps) {
                 <span>&middot;</span>
                 <span>{post.readTime}</span>
              </div>
-             <Link to={`/blog/${post.slug}`} className="inline-flex items-center text-sm font-semibold text-brand-blue hover:text-brand-green transition-colors">
+             <Link to={`/blog/${post.slug}`} className="inline-flex items-center text-sm font-semibold text-brand-blue hover:text-brand-orange transition-colors">
                 Read Article <ArrowRight className="ml-1 h-4 w-4" />
              </Link>
           </div>

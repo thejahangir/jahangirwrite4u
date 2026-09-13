@@ -5,6 +5,8 @@ import postsData from '../content/posts.json';
 import type { Post } from '../types';
 import { format, parseISO } from 'date-fns';
 import ArticleCard from '../components/ArticleCard';
+import { siteConfig } from '../config/site';
+import PageMeta from '../components/PageMeta';
 
 export default function ArticleDetail() {
   const { slug } = useParams<{ slug: string }>();
@@ -35,6 +37,7 @@ export default function ArticleDetail() {
   if (!post) {
     return (
       <div className="max-w-3xl mx-auto px-4 py-20 text-center">
+        <PageMeta title="Article Not Found" description="The article you're looking for doesn't exist." />
         <h1 className="text-4xl font-bold mb-4">Article Not Found</h1>
         <p className="text-muted">The article you're looking for doesn't exist.</p>
       </div>
@@ -45,6 +48,7 @@ export default function ArticleDetail() {
 
   return (
     <article className="pb-20">
+      <PageMeta title={post.title} description={post.excerpt} type="article" />
       {/* Progress Bar placeholder */}
       <div className="fixed top-0 left-0 w-full h-1 bg-surface z-50">
         <div className="h-full bg-brand-blue" style={{ width: '50%' }}></div>
@@ -63,9 +67,9 @@ export default function ArticleDetail() {
           </p>
           <div className="flex items-center gap-4">
             <img 
-              src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=100&auto=format&fit=crop" 
+              src={siteConfig.authorImage}
               alt={post.author}
-              className="w-12 h-12 rounded-full object-cover shadow-sm"
+              className="w-12 h-12 rounded-full object-cover object-[center_18%] shadow-sm"
             />
             <div className="flex flex-col">
               <span className="text-base font-bold text-text">{post.author}</span>
@@ -78,16 +82,6 @@ export default function ArticleDetail() {
           </div>
         </div>
       </header>
-
-      {post.coverImage && (
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 mb-16 md:mb-24">
-          <img 
-            src={post.coverImage} 
-            alt={post.title}
-            className="w-full aspect-video md:aspect-[21/9] object-cover rounded-xl shadow-sm"
-          />
-        </div>
-      )}
 
       <div className="max-w-3xl mx-auto px-4">
         <div 

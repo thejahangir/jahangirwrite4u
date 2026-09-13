@@ -93,7 +93,7 @@ export default function SearchDialog({ isOpen, onClose }: SearchDialogProps) {
                         <span className="text-sm font-medium text-brand-blue">{post.category}</span>
                         <span className="text-xs text-muted">{post.date}</span>
                       </div>
-                      <h4 className="text-base font-semibold text-text group-hover:text-brand-green transition-colors">{post.title}</h4>
+                      <h4 className="text-base font-semibold text-text group-hover:text-brand-orange transition-colors">{post.title}</h4>
                     </Link>
                   </li>
                 ))}

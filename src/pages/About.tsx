@@ -1,9 +1,14 @@
 import React from 'react';
 import { siteConfig } from '../config/site';
+import PageMeta from '../components/PageMeta';
 
 export default function About() {
   return (
     <div className="max-w-3xl mx-auto px-4 py-20">
+      <PageMeta
+        title="About"
+        description={`About ${siteConfig.author} and ${siteConfig.name}. Writing on ${siteConfig.topics}.`}
+      />
       <div className="mb-16">
         <h1 className="text-4xl md:text-5xl font-heading font-extrabold text-text mb-6">About {siteConfig.name}</h1>
         <p className="text-xl text-muted text-balance leading-relaxed">
@@ -35,9 +40,9 @@ export default function About() {
         <div className="flex flex-col md:flex-row gap-8 items-start">
           <div className="w-48 h-48 rounded-2xl bg-border overflow-hidden flex-shrink-0 relative group">
             <img 
-              src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=400&auto=format&fit=crop" 
+              src={siteConfig.authorImage}
               alt={siteConfig.author}
-              className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+              className="w-full h-full object-cover object-[center_18%] transition-transform duration-500 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-brand-blue/10 mix-blend-overlay opacity-0 group-hover:opacity-100 transition-opacity"></div>
           </div>

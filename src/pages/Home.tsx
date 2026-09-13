@@ -5,6 +5,8 @@ import postsData from '../content/posts.json';
 import type { Post } from '../types';
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import PageMeta from '../components/PageMeta';
+import { siteConfig } from '../config/site';
 
 export default function Home() {
   const posts = postsData as Post[];
@@ -13,6 +15,7 @@ export default function Home() {
 
   return (
     <div className="flex flex-col gap-20 pb-10">
+      <PageMeta />
       {/* Hero Section */}
       <section className="relative w-full min-h-[70vh] flex items-center mb-10 border-b border-border">
         {/* Parallax Background */}
@@ -33,7 +36,7 @@ export default function Home() {
               Thoughts on the <span className="text-brand-blue">Modern World.</span>
             </h1>
             <p className="text-2xl md:text-3xl lg:text-4xl text-text font-medium mb-12 leading-relaxed text-balance">
-              Ideas, opinions and stories about technology, design, AI, politics, culture and life.
+              Ideas, opinions and stories about technology, design, AI, politics, culture, life and literature.
             </p>
             <div>
               <a 
@@ -62,7 +65,7 @@ export default function Home() {
              <p className="text-muted text-lg lg:text-xl leading-relaxed mb-10 text-balance">
                A collection of my most recent thoughts, explorations, and essays on technology, design, and culture.
              </p>
-             <Link to="/articles" className="group inline-flex items-center text-brand-blue font-bold tracking-wide uppercase text-sm hover:text-brand-green transition-colors">
+             <Link to="/articles" className="group inline-flex items-center text-brand-blue font-bold tracking-wide uppercase text-sm hover:text-brand-orange transition-colors">
                View all articles <ArrowRight className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1" />
              </Link>
           </div>

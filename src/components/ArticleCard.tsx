@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { format, parseISO } from 'date-fns';
 import type { Post } from '../types';
+import { siteConfig } from '../config/site';
 
 interface ArticleCardProps {
   post: Post;
@@ -12,17 +13,6 @@ export default function ArticleCard({ post }: ArticleCardProps) {
 
   return (
     <article className="group flex flex-col h-full">
-      {post.coverImage && (
-        <Link to={`/blog/${post.slug}`} className="block w-full overflow-hidden rounded-xl mb-6">
-          <img 
-            src={post.coverImage} 
-            alt={post.title} 
-            className="w-full aspect-[4/3] object-cover transition-transform duration-700 group-hover:scale-105"
-            loading="lazy"
-          />
-        </Link>
-      )}
-      
       <div className="flex flex-col flex-grow">
         <div className="flex items-center gap-2 text-xs font-bold tracking-widest uppercase text-brand-blue mb-4">
            <span>{post.category}</span>
@@ -41,7 +31,14 @@ export default function ArticleCard({ post }: ArticleCardProps) {
         </p>
         
         <div className="pt-5 mt-auto border-t border-border/60 flex items-center justify-between text-sm">
-          <span className="font-semibold text-text">{post.author}</span>
+          <span className="font-semibold text-text flex items-center gap-2">
+            <img
+              src={siteConfig.authorImage}
+              alt={post.author}
+              className="w-7 h-7 rounded-full object-cover object-[center_18%]"
+            />
+            {post.author}
+          </span>
           <time dateTime={post.date} className="text-muted">{formattedDate}</time>
         </div>
       </div>

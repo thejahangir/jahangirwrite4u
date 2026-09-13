@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import PageMeta from '../components/PageMeta';
 
 export default function NotFound() {
   return (
     <div className="flex-grow flex items-center justify-center py-20 px-4">
+      <PageMeta title="Page not found" description="The page you are looking for might have been removed." />
       <div className="text-center">
         <h1 className="text-9xl font-heading font-extrabold text-brand-blue/20 mb-4 select-none">404</h1>
         <h2 className="text-3xl font-heading font-bold text-text mb-4">Looks like this page took a wrong turn.</h2>

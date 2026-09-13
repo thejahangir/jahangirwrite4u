@@ -4,6 +4,7 @@ import { Menu, X, Search, Sun, Moon } from 'lucide-react';
 import { useTheme } from '../hooks/useTheme';
 import { siteConfig } from '../config/site';
 import SearchDialog from './SearchDialog';
+import logo from '../assets/logo-jw4u.png';
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -38,8 +39,12 @@ export default function Header() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
-            <Link to="/" className="text-xl font-heading font-bold text-text hover:text-brand-blue transition-colors">
-              {siteConfig.name}
+            <Link to="/" className="flex items-center" aria-label={siteConfig.name}>
+              <img
+                src={logo}
+                alt={siteConfig.name}
+                className="w-auto dark:invert dark:hue-rotate-180 logoj4u"
+              />
             </Link>
           </div>
 
