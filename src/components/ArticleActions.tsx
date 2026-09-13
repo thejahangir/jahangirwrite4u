@@ -31,7 +31,7 @@ export default function ArticleActions() {
     'inline-flex items-center gap-2 rounded-full border border-border bg-surface px-4 py-2 text-sm font-medium text-muted hover:text-brand-blue hover:border-brand-blue/40 transition-colors cursor-pointer';
 
   return (
-    <div className="article-actions flex flex-wrap items-center gap-3 mb-16 print:hidden">
+    <div className="article-actions flex flex-wrap justify-end items-center gap-3 mb-16 print:hidden">
       <button type="button" onClick={printArticle} className={actionClass}>
         <Printer className="h-4 w-4" />
         Print
