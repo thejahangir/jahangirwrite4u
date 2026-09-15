@@ -1,5 +1,101 @@
 [
   {
+    "id": "040",
+    "slug": "from-graphical-user-interfaces-to-conversational-and-ai-interfaces",
+    "title": "From Graphical User Interfaces to Conversational and AI Interfaces",
+    "excerpt": "The history of digital interaction is, in many ways, the history of reducing the distance between humans and machines.",
+    "category": "UI/UX",
+    "tags": [
+      "UX",
+      "AI",
+      "Design"
+    ],
+    "author": "Jahangir Alam",
+    "date": "2026-05-22",
+    "readTime": "16 min read",
+    "featured": false
+  },
+  {
+    "id": "039",
+    "slug": "designing-for-cultural-diversity-in-global-digital-products",
+    "title": "Designing for Cultural Diversity in Global Digital Products",
+    "excerpt": "The ambition of modern digital products is increasingly global. A mobile application can be designed in Bengaluru, developed in San Francisco, tested in Singapore, and used within minutes by someone in Nairobi, Tokyo, Berlin, São Paulo, or Mumbai.",
+    "category": "UI/UX",
+    "tags": [
+      "UX",
+      "Culture",
+      "Design"
+    ],
+    "author": "Jahangir Alam",
+    "date": "2026-01-09",
+    "readTime": "15 min read",
+    "featured": false
+  },
+  {
+    "id": "038",
+    "slug": "the-attention-economy-how-social-media-ux-shapes-human-behaviour",
+    "title": "The Attention Economy: How Social Media UX Shapes Human Behaviour",
+    "excerpt": "The modern internet has transformed attention into one of the most valuable commodities in the digital economy. Social media platforms may appear to offer free communication, entertainment, information, and community, but their underlying business models often depend on something far more valuable than money: human attention.",
+    "category": "UI/UX",
+    "tags": [
+      "UX",
+      "Social Media",
+      "Psychology"
+    ],
+    "author": "Jahangir Alam",
+    "date": "2026-03-10",
+    "readTime": "18 min read",
+    "featured": false
+  },
+  {
+    "id": "037",
+    "slug": "dark-patterns-in-ux-the-ethics-of-persuasive-interface-design",
+    "title": "Dark Patterns in UX: The Ethics of Persuasive Interface Design",
+    "excerpt": "User Experience design is often described as the discipline of making digital products easier, clearer, and more useful. Yet the same principles that can make an interface intuitive can also be used to influence users in ways they do not fully understand.",
+    "category": "UI/UX",
+    "tags": [
+      "UX",
+      "Ethics",
+      "Design"
+    ],
+    "author": "Jahangir Alam",
+    "date": "2025-07-23",
+    "readTime": "16 min read",
+    "featured": false
+  },
+  {
+    "id": "036",
+    "slug": "accessibility-as-a-fundamental-principle-of-user-experience-design",
+    "title": "Accessibility as a Fundamental Principle of User Experience Design",
+    "excerpt": "Accessibility is often treated as a specialized discipline within User Experience (UX) design—a checklist of WCAG requirements, a final-stage audit, or a set of technical adjustments made to accommodate people with disabilities. This approach is fundamentally flawed.",
+    "category": "UI/UX",
+    "tags": [
+      "UX",
+      "Accessibility",
+      "Design"
+    ],
+    "author": "Jahangir Alam",
+    "date": "2025-05-17",
+    "readTime": "14 min read",
+    "featured": false
+  },
+  {
+    "id": "035",
+    "slug": "political-polarization-and-the-failure-of-democracy",
+    "title": "Political Polarization and the Failure of Democracy",
+    "excerpt": "Democracy is often described as a system in which people with different ideas coexist, compete, argue, and ultimately accept the legitimacy of a collective decision.",
+    "category": "Politics",
+    "tags": [
+      "Politics",
+      "Democracy",
+      "Society"
+    ],
+    "author": "Jahangir Alam",
+    "date": "2024-04-15",
+    "readTime": "12 min read",
+    "featured": false
+  },
+  {
     "id": "034",
     "slug": "javascript-in-2026-the-language-is-no-longer-the-platform",
     "title": "JavaScript in 2026: The Language Is No Longer the Platform",
