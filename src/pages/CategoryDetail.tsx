@@ -10,9 +10,9 @@ export default function CategoryDetail() {
   const { slug } = useParams<{ slug: string }>();
   
   const category = (categoriesData as Category[]).find(c => c.slug === slug);
-  const posts = (postsData as Post[]).filter(
-    p => p.category.toLowerCase() === category?.name.toLowerCase()
-  );
+  const posts = (postsData as Post[])
+    .filter(p => p.category.toLowerCase() === category?.name.toLowerCase())
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 
   if (!category) {
     return (

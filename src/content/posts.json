@@ -1,5 +1,37 @@
 [
   {
+    "id": "042",
+    "slug": "why-great-ux-feels-invisible",
+    "title": "Why Great UX Feels Invisible",
+    "excerpt": "There is something strange about good user experience: when it works exceptionally well, people rarely notice it. Good UX often disappears into the task, while bad UX becomes part of the task.",
+    "category": "UI/UX",
+    "tags": [
+      "UX",
+      "Design",
+      "Product Design"
+    ],
+    "author": "Jahangir Alam",
+    "date": "2024-02-19",
+    "readTime": "10 min read",
+    "featured": false
+  },
+  {
+    "id": "041",
+    "slug": "ux-psychology-how-people-think-and-behave",
+    "title": "UX Psychology: How People Think & Behave",
+    "excerpt": "Great UX design is often described as the process of making digital products easy to use. That definition is correct, but incomplete. At a deeper level, UX design is the practice of designing for human psychology.",
+    "category": "UI/UX",
+    "tags": [
+      "UX",
+      "Psychology",
+      "Design"
+    ],
+    "author": "Jahangir Alam",
+    "date": "2024-02-19",
+    "readTime": "15 min read",
+    "featured": false
+  },
+  {
     "id": "040",
     "slug": "from-graphical-user-interfaces-to-conversational-and-ai-interfaces",
     "title": "From Graphical User Interfaces to Conversational and AI Interfaces",

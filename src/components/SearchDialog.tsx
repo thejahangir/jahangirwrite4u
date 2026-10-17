@@ -35,15 +35,17 @@ export default function SearchDialog({ isOpen, onClose }: SearchDialogProps) {
       return;
     }
     const lowerQuery = query.toLowerCase();
-    const filtered = (postsData as Post[]).filter((post) => {
-      return (
-        post.title.toLowerCase().includes(lowerQuery) ||
-        post.excerpt.toLowerCase().includes(lowerQuery) ||
-        post.category.toLowerCase().includes(lowerQuery) ||
-        post.tags.some((tag) => tag.toLowerCase().includes(lowerQuery)) ||
-        post.author.toLowerCase().includes(lowerQuery)
-      );
-    });
+    const filtered = (postsData as Post[])
+      .filter((post) => {
+        return (
+          post.title.toLowerCase().includes(lowerQuery) ||
+          post.excerpt.toLowerCase().includes(lowerQuery) ||
+          post.category.toLowerCase().includes(lowerQuery) ||
+          post.tags.some((tag) => tag.toLowerCase().includes(lowerQuery)) ||
+          post.author.toLowerCase().includes(lowerQuery)
+        );
+      })
+      .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
     setResults(filtered);
   }, [query]);
 
