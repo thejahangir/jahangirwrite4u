@@ -70,6 +70,6 @@ npm run build
 This will generate a `dist/` directory containing all your static assets. You can upload the contents of this folder directly to your web server.
 
 ## Post Details 
-add another article with the following content. format wherever it's required. Published Date should be in 19 Feb 2024.
+add another article with the following content. format wherever it's required. Published Date should be in 16 Feb 2021.
 if you find AI generated character. remove it. it should not display as it has been written with the help of AI
-The header is "Figma Unbought: The $20B Deal That Saved Figma".
+The header is "When Everyone Designs, Nobody Designs".

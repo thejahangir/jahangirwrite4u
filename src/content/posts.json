@@ -1,5 +1,22 @@
 [
   {
+    "id": "044",
+    "slug": "when-everyone-designs-nobody-designs",
+    "title": "When Everyone Designs, Nobody Designs",
+    "excerpt": "Because product development is collaborative, teams often assume every design decision must be collective. When everyone designs, nobody owns the experience. Great products require clear decision boundaries.",
+    "category": "UI/UX",
+    "tags": [
+      "UX",
+      "Product Design",
+      "Design Leadership",
+      "Collaboration"
+    ],
+    "author": "Jahangir Alam",
+    "date": "2021-02-16",
+    "readTime": "13 min read",
+    "featured": false
+  },
+  {
     "id": "043",
     "slug": "figma-unbought-the-20b-deal-that-saved-figma",
     "title": "Figma Unbought: The $20B Deal That Saved Figma",
