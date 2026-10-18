@@ -72,4 +72,4 @@ This will generate a `dist/` directory containing all your static assets. You ca
 ## Post Details 
 add another article with the following content. format wherever it's required. Published Date should be in 19 Feb 2024.
 if you find AI generated character. remove it. it should not display as it has been written with the help of AI
-The header is "UX Psychology: How People Think & Behave".
+The header is "Figma Unbought: The $20B Deal That Saved Figma".

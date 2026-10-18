@@ -1,5 +1,22 @@
 [
   {
+    "id": "043",
+    "slug": "figma-unbought-the-20b-deal-that-saved-figma",
+    "title": "Figma Unbought: The $20B Deal That Saved Figma",
+    "excerpt": "Adobe's proposed $20 billion acquisition of Figma was poised to consolidate creative software. Its collapse preserved independent competition and unlocked Figma's transformation into a broader product and AI ecosystem.",
+    "category": "Technology",
+    "tags": [
+      "Figma",
+      "UI/UX",
+      "Product Design",
+      "Technology"
+    ],
+    "author": "Jahangir Alam",
+    "date": "2024-07-25",
+    "readTime": "12 min read",
+    "featured": false
+  },
+  {
     "id": "042",
     "slug": "why-great-ux-feels-invisible",
     "title": "Why Great UX Feels Invisible",
