@@ -1,5 +1,22 @@
 [
   {
+      "id": "045",
+      "slug": "when-product-ownership-becomes-product-interference",
+      "title": "When Product Ownership Becomes Product Interference",
+      "excerpt": "A product owner defines the why and the what, but authority turns destructive when it dictates every screen and technical detail. Confusing ownership with authorship destroys team agency and leads to feature-rich but product-poor software.",
+      "category": "Technology",
+      "tags": [
+          "Product Management",
+          "UX",
+          "Product Design",
+          "Design Leadership"
+      ],
+      "author": "Jahangir Alam",
+      "date": "2024-05-08",
+      "readTime": "11 min read",
+      "featured": false
+  },
+  {
     "id": "044",
     "slug": "when-everyone-designs-nobody-designs",
     "title": "When Everyone Designs, Nobody Designs",
